@@ -1,0 +1,19 @@
+2021-01-14 22:35:58.475 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_201 on ThinkPad-PC with PID 11604 (D:\Program Files\Git\workspace\muke\AutoTest\Chapter13\target\classes started by ThinkPad in D:\Program Files\Git\workspace\muke\AutoTest)
+2021-01-14 22:35:58.495 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-01-14 22:36:02.328 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-01-14 22:36:04.018 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-01-14 22:36:04.063 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 22:36:04.063 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-14 22:36:04.660 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 22:36:04.663 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5713 ms
+2021-01-14 22:36:07.908 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:36:08.455 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-01-14 22:36:08.628 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-01-14 22:36:09.473 [main] INFO  com.course.Application - Started Application in 14.146 seconds (JVM running for 19.829)
+2021-01-14 22:36:32.203 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 22:36:32.203 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-14 22:36:32.208 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-01-14 22:36:32.455 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-14 22:36:32.458 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 更新数据的条目数为：0
+2021-01-14 22:36:32.985 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-14 22:36:32.988 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 更新数据的条目数为：0

@@ -1,0 +1,7 @@
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 8888 -c startup1.json
+http：协议（服务类型server type）
+-p：端口号（port）
+-c：一个json文件，moco框架的配置，可以是绝对路径或相对路径（configuration file）
+
+如果返回结果发生中文乱码，则启动时加上”-Dfile.encoding=UTF-8“
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-1.1.0-standalone.jar http -p 8889 -c startupGet.json

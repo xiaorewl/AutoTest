@@ -1,0 +1,4 @@
+# Created at 2021-01-25T09:29:45.649
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Program Files\Git\workspace\muke\AutoTest\Chapter12\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

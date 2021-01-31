@@ -1,0 +1,36 @@
+2021-01-15 11:15:57.368 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_201 on ThinkPad-PC with PID 3436 (D:\Program Files\Git\workspace\muke\AutoTest\Chapter13\target\classes started by ThinkPad in D:\Program Files\Git\workspace\muke\AutoTest)
+2021-01-15 11:15:57.404 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2021-01-15 11:16:04.319 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2021-01-15 11:16:06.497 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-01-15 11:16:06.557 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-15 11:16:06.559 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-15 11:16:07.214 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-15 11:16:07.215 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9287 ms
+2021-01-15 11:16:11.107 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 11:16:12.031 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-01-15 11:16:12.411 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-01-15 11:16:14.137 [main] INFO  com.course.Application - Started Application in 20.384 seconds (JVM running for 31.923)
+2021-01-15 11:17:20.031 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-15 11:17:20.034 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-15 11:17:20.038 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-01-15 11:17:20.246 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-15 11:17:20.248 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 更新数据的条目数为：0
+2021-01-15 11:17:20.673 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-15 11:17:20.674 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 更新数据的条目数为：0
+2021-01-15 11:25:05.083 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-15 11:25:05.084 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 更新数据的条目数为：0
+2021-01-15 11:25:05.556 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies为空。
+2021-01-15 11:25:05.556 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 更新数据的条目数为：0
+2021-01-15 11:33:00.357 [http-nio-8888-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-15 11:33:11.549 [http-nio-8888-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-15 11:33:12.356 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：1
+2021-01-15 11:33:12.358 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 登陆的用户是：zhangsan
+2021-01-15 11:33:14.632 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2021-01-15 11:33:17.656 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies验证通过。
+2021-01-15 11:33:19.876 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2021-01-15 12:04:33.167 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是：1
+2021-01-15 12:04:33.168 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 登陆的用户是：zhangsan
+2021-01-15 12:04:34.410 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2021-01-15 12:04:35.484 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies验证通过。
+2021-01-15 12:04:35.892 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2021-01-15 12:40:58.571 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m14s944ms226µs574ns).
