@@ -11,8 +11,8 @@ spring:
     name: userManager
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.111.157:3306/wltest1
-    #url: jdbc:mysql://192.168.111.157:3306/wltest1?serverTimezone=GMT
+    url: jdbc:mysql://192.168.111.158:3306/wltest1
+    #url: jdbc:mysql://192.168.111.158:3306/wltest1?serverTimezone=GMT
     username: root
     password: WLl@1234
 
